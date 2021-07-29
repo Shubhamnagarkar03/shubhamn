@@ -1,0 +1,172 @@
+body{
+  background-image: url("cooler.png");
+  background-size: contain;
+}
+#pic{
+  width: 600px;
+  max-width: 100%;
+  border: 3px solid black;
+  margin-top: 3%;
+  position: relative;
+
+ z-index: 1;
+}
+.picclas{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.navbar-collapse{
+  text-align: justify;
+  margin-left: 2%;
+
+}
+.navbar{
+  background-color: rgba(0,0,0, 0.7);
+  position: sticky;
+
+}
+.navbar-brand{
+  color: white !important;
+  font-weight: bold;
+
+
+}
+.nav-link{
+color: white !important;
+font-family: 'Quicksand', sans-serif;
+font-weight:bold;
+display: inline-block;
+
+}
+
+.nav-link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #DF5E5E;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::before {
+  transform: scaleX(1);
+}
+.container-fluid{
+  margin-left: 38%;
+
+}
+.des{
+  border:none;
+    border-top: 10px dotted white;
+    opacity: 1;
+    background-color: transparent;
+    margin-left: 45%;
+    width:10%;
+}
+.container-sm{
+  background: rgb(232,241,240);
+  background: radial-gradient(circle, rgba(232,241,240,1) 51%, rgba(214,214,214,1) 96%);
+  border: solid 2px black;
+  white-space: pre-wrap;
+  width: 1100px;
+  max-width: 100%;
+
+}
+.bk{
+  text-align: center;
+  font-size: 100%;
+font-family: 'Marcellus', serif;
+  font-size: 18px;
+
+
+}
+.subs{
+
+font-size: 2.5em;
+display: inline-block;
+white-space: pre-wrap;
+font-family: 'Comfortaa', cursive;
+
+}
+.modal1:hover{
+  font-weight: bold;
+}
+.lastf{
+  background-color: rgba(0,0,0,1);
+
+}
+#fname{
+  font-family: 'Righteous', cursive;
+  color: white;
+
+}
+.svgs{
+  width:25px;
+  height: 25px;
+  letter-spacing: 3px;
+}
+.svgs:hover{
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+#front{
+  background: #FF4545;
+  background: -webkit-repeating-radial-gradient(circle farthest-corner at bottom left, #FF4545 0%, #1CC2FF 100%);
+  background: -moz-repeating-radial-gradient(circle farthest-corner at bottom left, #FF4545 0%, #1CC2FF 100%);
+  background: repeating-radial-gradient(circle farthest-corner at bottom left, #FF4545 0%, #1CC2FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#resp{
+  letter-spacing: 3px;
+  color: red;
+  border: solid black 1px;
+}
+#wd{
+ text-decoration: underline;
+ text-decoration-style: wavy;
+}
+#free{
+  color: darkblue;
+  font-weight: bold;
+}
+#hid{
+  background: #FF4400;
+background: -webkit-repeating-radial-gradient(circle farthest-corner at bottom left, #FF4400 0%, #290303 100%);
+background: -moz-repeating-radial-gradient(circle farthest-corner at bottom left, #FF4400 0%, #290303 100%);
+background: repeating-radial-gradient(circle farthest-corner at bottom left, #FF4400 0%, #290303 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#os{
+  background: #188503;
+  background: -webkit-repeating-radial-gradient(circle farthest-corner at bottom left, #188503 0%, #6040FF 100%);
+  background: -moz-repeating-radial-gradient(circle farthest-corner at bottom left, #188503 0%, #6040FF 100%);
+  background: repeating-radial-gradient(circle farthest-corner at bottom left, #188503 0%, #6040FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#fndd{
+  box-shadow: 4px 4px 4px black;
+}
+.bk::first-letter{
+  color: red;
+}
